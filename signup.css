@@ -1,0 +1,66 @@
+body{
+ margin:0;
+ padding:0;
+color:white;
+font-family:sans-serif;
+background:#c5f0ee;
+background-image:url("images/g3736.png");
+}
+.box{
+  width:300px;
+padding:40px;
+position:absolute; 
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#17a4ab ;
+text-align:center;
+}
+box h1{
+color:white;
+text-transform:uppercase;
+font-weight:500;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="e-mail"]{
+ border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid white;
+padding:14px 10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="e-mail"]:focus{
+width:280px;
+border-color:white;
+}
+.box input[type="submit"]{
+ border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid white;
+padding:14px 10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+cursor:pointer;
+}
+.box input[type="submit"]:hover{
+background: #165668 ;
+}
+.box a{
+text-align:right;
+margin-right:2px;
+font-size:12px;
+color:  #16b3c0  ;
+}
+
